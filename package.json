@@ -6,7 +6,8 @@
   "scripts": {
     "start": "vite",
     "mock-api": "json-server --watch db.json --port 5001",
-    "dev": "concurrently \"npm run mock-api\" \"npm run start\""
+    "dev": "concurrently \"npm run mock-api\" \"npm run start\"",
+    "build": "vite build"
   },
   "dependencies": {
     "react": "^18.2.0",
